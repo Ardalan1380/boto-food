@@ -1,0 +1,17 @@
+.container {
+    margin-top: 40px;
+}
+
+.container h3 {
+    margin: 24px 0;
+    color: #53c60b;
+    font-size: 1.5rem;
+}
+
+.container p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 30px;
+    margin: 18px 0 ;
+}

@@ -1,0 +1,37 @@
+.container {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.container h2 {
+    margin-bottom: 50px;
+    border-bottom: 6px solid #53e60b;
+    width: fit-content;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.subContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width:900px) {
+    .container {
+        padding: 10px;
+    }
+    .subContainer {
+        justify-content: space-around;
+    }
+    .container h2 {
+        margin: auto;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width:600px) {
+    .container {
+        padding: 10px;
+    }
+}

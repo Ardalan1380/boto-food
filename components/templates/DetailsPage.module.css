@@ -1,0 +1,168 @@
+.container {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.container h2 {
+    margin-bottom: 50px;
+    border-bottom: 4px solid #53e60b;
+    width: fit-content;
+    font-size: 1.9rem;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.banner div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+
+.banner h3 {
+    color: #53e60b;
+}
+
+.location {
+    color: grey;
+    margin:20px 0 40px
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    font-weight: 650;
+}
+
+.discount {
+    margin-top: 20px;
+    background-color: #ed4133;
+    text-align: center;
+    padding: 10px 0 ;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+
+.introduction {
+    margin: 60px 0;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.details {
+    margin-bottom: 60px;
+}
+
+.details h4 {
+    color: #53e60b;
+    margin: 24px 0;
+}
+
+.details li {
+    display: flex;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.details li::before {
+    content: "• ";
+    color: #53c60b;
+  }
+
+.details p {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 10px;
+}   
+
+.details span {
+    color: grey;
+}
+
+.recipe {
+    margin-bottom: 100px;
+}
+
+
+.recipe h4 {
+    font-size: 1.5rem;
+    color: #53c60b;
+    margin: 24px 0;
+  }
+
+.recipe div {
+    display: flex;
+    padding: 20px 10px;
+    align-items: center;
+    text-align: justify;
+}
+
+.recipe span {
+    margin: 0 15px 0 10px;
+    font-size: 2rem;
+}
+
+.recipe p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.odd {
+    background-color: #e8ffdb;
+}
+
+.even {
+    background-color: #bcff93;
+}
+
+.container button {
+    background-color: #53c60b;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all ease-in 0.1s;
+}
+
+.container button:hover {
+    background-color: #5de21a;
+}
+
+@media (max-width:900px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+@media(max-width:600px) {
+    .container{
+        padding: 10px;
+    }
+    .banner {
+        flex-direction: column;
+    }
+    .banner div {
+        margin: 0;
+    }
+    .banner img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .discount {
+        width: fit-content;
+        padding: 5px 15px;
+    }
+}
